@@ -15,13 +15,15 @@
 <p> What is your name? <imput id= 'fristname'> <br> <buttton onclick='fname()'> Enter </buttton></p>
 
   <h3>This is a sample JavaScript and HTML document.</h3>
-
+<p>
+</p>
+  HI <span id='ans'>______________</span>
 
   <script>
 function fname() { 
   let a = document.getElementById('fistname').value;
   window.alert(a);
-
+document.getElementById('ans').innerHTML = a;
 }
     
   </script>
